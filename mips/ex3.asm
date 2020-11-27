@@ -11,7 +11,7 @@
 	la $a0, mensagem
 	syscall
 	
-	# le a entrada do usu�rio:
+	# le a entrada do usuario:
 	li $v0, 5
 	syscall
 	

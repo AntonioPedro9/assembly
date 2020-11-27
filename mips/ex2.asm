@@ -8,7 +8,7 @@
 .text
 	# printa a mensagem 1:
 	li $v0, 4
-	la $a0, message1
+	la $a0, mensagem1
 	syscall
 	
 	# le a entrada do usuario:
@@ -19,11 +19,11 @@
 	
 	# printa a mensagem 2:
 	li $v0, 4
-	la $a0, message2
+	la $a0, mensagem2
 	syscall
 	
 	# printa o nome do usuario:
 	li $v0, 4
-	la $a0, name
+	la $a0, nome
 	syscall
 	
