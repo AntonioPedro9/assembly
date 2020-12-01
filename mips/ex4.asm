@@ -1,7 +1,7 @@
 # programa que te ajuda a advinhar um numero
 
 .data
-	mensagem: .asciiz "Digite um numero entre 0 e 100:\n"
+	mensagem: .asciiz "Digite um numero:\n"
 	mensagem_maior: .asciiz "Eh um numero maior\n"
 	mensagem_menor: .asciiz "Eh um numero menor\n"
 	mensagem_acerto: .asciiz "Parabens vc acertou!\n"
